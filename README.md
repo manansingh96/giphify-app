@@ -60,7 +60,7 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
 
 ## Configure app
 
-##Generate API Keys
+## Generate API Keys
 
 ###### Giphy
 
