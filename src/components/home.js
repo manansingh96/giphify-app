@@ -195,7 +195,9 @@ class Home extends React.Component {
         <h1>GIPHIFY</h1>
         <ActiveClients value={this.state.client} />
         <SearchBar value={this.state.query} onChange={this.handleChange} />
-        <button onClick={this.loadMore}>Load More</button>
+        <button name="loadButton" onClick={this.loadMore}>
+          Load More
+        </button>
         <button name="client" value="giphy" onClick={this.handleChange}>
           Giphy
         </button>

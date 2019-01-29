@@ -84,6 +84,14 @@ Add these line to your `.env` file and replace relevent fields with your keys.
 
     $ npm start
 
+## How to use
+
+Type your search query in the text field.
+Click on the client button which are `Giphy` and `Imgur`
+Click `Load More` to load more searches and keep scrolling.
+
+You can hot-switch the client by clicking the client buttons for the same search query.
+
 ## Built With
 
 - [React](https://reactjs.org/)
