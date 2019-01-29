@@ -58,19 +58,27 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
     $ cd PROJECT
     $ npm install
 
-### Configure app
+## Configure app
 
-####Generate API Keys
+##Generate API Keys
 
-#####Giphy
+######Giphy
 
 Go to [Giphy Developers](https://developers.giphy.com/) and create an account.
 [Click here](https://developers.giphy.com/dashboard/?create=true) to create an app and generate your key.
 
-    REACT_APP_GIPHY=<Your Key Here>
-    REACT_APP_IMGUR=Client-ID <Your Key Here>
+######Imgur
+
+Go to [Imgur]() and create an account [here](https://imgur.com/register?redirect=%2F).
+Register your application [here](https://api.imgur.com/oauth2/addclient).
+
+######Environement Variables
 
 Create `.env` in the project directory
+Add these line to your `.env` file and replace relevent fields with your keys.
+
+    REACT_APP_GIPHY=<YourGiphyAPIKeyHere>
+    REACT_APP_IMGUR=Client-ID <YourClientSecretHere>
 
 - backend api
 - oauth like endpoint for auth
