@@ -1,5 +1,145 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Giphify
+
+Search images from Giphy and Imgur because we can.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+## Requirements
+
+For development, you will only need Node.js installed on your environement.
+And please use the appropriate [Editorconfig](http://editorconfig.org/) plugin for your Editor (not mandatory).
+
+### Node
+
+[Node](http://nodejs.org/) is really easy to install & now include [NPM](https://npmjs.org/).
+You should be able to run the following command after the installation procedure
+below.
+
+    $ node --version
+    v0.10.24
+
+    $ npm --version
+    1.3.21
+
+#### Node installation on OS X
+
+You will need to use a Terminal. On OS X, you can find the default terminal in
+`/Applications/Utilities/Terminal.app`.
+
+Please install [Homebrew](http://brew.sh/) if it's not already done with the following command.
+
+    $ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+
+If everything when fine, you should run
+
+    brew install node
+
+#### Node installation on Linux
+
+    sudo apt-get install python-software-properties
+    sudo add-apt-repository ppa:chris-lea/node.js
+    sudo apt-get update
+    sudo apt-get install nodejs
+
+#### Node installation on Windows
+
+Just go on [official Node.js website](http://nodejs.org/) & grab the installer.
+Also, be sure to have `git` available in your PATH, `npm` might need it.
+
+---
+
+## Install
+
+    $ git clone https://github.com/manansingh96/giphify-app
+    $ cd PROJECT
+    $ npm install
+
+### Configure app
+
+####Generate API Keys
+
+#####Giphy
+
+Go to [Giphy Developers](https://developers.giphy.com/) and create an account.
+[Click here](https://developers.giphy.com/dashboard/?create=true) to create an app and generate your key.
+
+    REACT_APP_GIPHY=<Your Key Here>
+    REACT_APP_IMGUR=Client-ID <Your Key Here>
+
+Create `.env` in the project directory
+
+- backend api
+- oauth like endpoint for auth
+- development
+
+## Start & watch
+
+    $ npm start
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+- [Maven](https://maven.apache.org/) - Dependency Management
+- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+
+## Authors
+
+- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## Initialisation
+
+Clone/Download the repository.
+
 ## Available Scripts
 
 In the project directory, you can run:
