@@ -28,7 +28,6 @@ class ImgurClient {
     this.apiBase = "https://api.imgur.com/3/gallery/search?q=";
     // this.authorizationClientID = "Client-ID 943705e1d949fcf";
     this.authorizationClientID = process.env.REACT_APP_IMGUR;
-    console.log(this.authorizationClientID);
   }
   async getData(query, page) {
     query = query

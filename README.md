@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+---
+
 # Giphify
 
 Search images from Giphy and Imgur because we can.
@@ -58,9 +60,9 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
     $ cd PROJECT
     $ npm install
 
-## Configure app
+### Configure app
 
-## Generate API Keys
+#### Generate API Keys
 
 ###### Giphy
 
@@ -72,7 +74,7 @@ Go to [Giphy Developers](https://developers.giphy.com/) and create an account.
 Go to [Imgur]() and create an account [here](https://imgur.com/register?redirect=%2F).
 Register your application [here](https://api.imgur.com/oauth2/addclient).
 
-### Environement Variables
+#### Environement Variables
 
 Create `.env` in the project directory
 Add these line to your `.env` file and replace relevent fields with your keys.
@@ -98,4 +100,4 @@ You can hot-switch the client by clicking the client buttons for the same search
 
 ## Authors
 
-- **Manan Singh**
+- **Manan Singh** with a little help here and there.
