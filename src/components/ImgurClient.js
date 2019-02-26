@@ -1,7 +1,6 @@
 class ImgurClient {
   constructor() {
     this.apiBase = "https://api.imgur.com/3/gallery/search?q=";
-    // this.authorizationClientID = "Client-ID 943705e1d949fcf";
     this.authorizationClientID = process.env.REACT_APP_IMGUR;
   }
   async getData(query, page) {
@@ -16,6 +15,7 @@ class ImgurClient {
         Authorization: this.authorizationClientID
       }
     });
+    console.log(url);
     return response.then(results => results.json());
   }
 }
